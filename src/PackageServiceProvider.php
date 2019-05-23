@@ -9,7 +9,6 @@ class PackageServiceProvider extends ServiceProvider
     protected $commands = [
             RobotCombineMedia::class
             ,RobotMp3Cut::class
-            ,RobotTest::class
     ];
 
     public function boot()
