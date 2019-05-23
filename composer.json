@@ -21,12 +21,5 @@
         "psr-4": {
             "Andrewhlleung\\Youtubetools\\Tests\\": "tests/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Andrewhlleung\\Youtubetools\\PackageServiceProvider"
-            ]
-        }
     }
 }
