@@ -1,0 +1,25 @@
+{
+    "name": "andrewhlleung/youtubetools",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew H L Leung",
+            "email": "andrewhlleung.office@gmail.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.0"
+    }
+
+    ,"autoload": {
+        "psr-4": {
+            "Andrewhlleung\\Youtubetools\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Andrewhlleung\\Youtubetools\\Tests\\": "tests/"
+        }
+    }
+}
